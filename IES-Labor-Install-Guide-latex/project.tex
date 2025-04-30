@@ -6,6 +6,7 @@
 \usepackage{listings}   % Für Code-Blöcke
 \usepackage{xcolor}     % Für Farben
 \usepackage{tcolorbox}  % Für Info-Box
+\usepackage{float}
 
 % Einstellungen für Code-Blöcke
 \lstset{
@@ -32,10 +33,10 @@
 
 % Informations
 %--------------------------------------
-\title{\vspace{-3.5cm}\huge \bf Installation Guide IES-Labor auf Apple Silicon }
+\title{\vspace{-3.5cm}\huge \bf Installation Guide IES-Labor auf Apple Silicon}
 \author{\vspace{-3mm}Nils Eckerle}
 \date{\vspace{-6mm}\small\today}
-%--------------------------------------
+
 
 
 %--------------------------------------------------------------------------------
@@ -86,7 +87,7 @@ Folgen Sie diesen Schritten, um die heruntergeladene Datei umzuwandeln:
     \end{tcolorbox}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_cd-nach-download-und-ls.png}
     \includegraphics[width=0.48\textwidth]{images/img_rename-downloaded-file.png}
@@ -125,7 +126,7 @@ Mit Zusätzen kann der Befehl modifiziert werden:
     \end{tcolorbox}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_tgz-entpacken.png}
     \includegraphics[width=0.48\textwidth]{images/img_ls-und-datei-convertieren-mit-qemu.png}
@@ -152,7 +153,7 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
   \item Wählen Sie als Typ: \textbf{Emulate}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_utm_create-new-vm.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_emulation.png}
@@ -167,7 +168,7 @@ Die Umsetzung der Schritte 1-2 ist in Abbildung \ref{fig:vm-erstellen-emulation}
   \item Wählen Sie als Boot Device: \textbf{None}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_utm_other.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_no-boot-device.png}
@@ -185,7 +186,7 @@ Die Auswahl gemäß Schritt 3-4 ist in Abbildung \ref{fig:os-boot-device} darges
   \end{itemize}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_hardware-settings.png}
     \caption{Hardware-Einstellungen der VM}
@@ -200,7 +201,7 @@ Die Hardware-Konfiguration gemäß Schritt 5 ist in Abbildung \ref{fig:hardware-
   \item Beenden Sie das Setup
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_utm_storage.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_summary-benennung.png}
@@ -216,7 +217,7 @@ Die Einstellungen aus den Schritten 6-8 sind in Abbildung \ref{fig:storage-summa
   \item Bearbeiten Sie die VM über den „Edit"-Button
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_edit-vm.png}
     \caption{VM bearbeiten}
@@ -230,7 +231,7 @@ Wie in Abbildung \ref{fig:edit-vm} zu sehen, können Sie die VM über den Edit-B
   \item Deaktivieren Sie unter QEMU die Option „UEFI-Boot"
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_utm_system-force-multicore.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_qemu-disable-uefi.png}
@@ -244,7 +245,7 @@ Die Änderungen gemäß Schritt 2-3 sind in Abbildung \ref{fig:system-qemu} darg
   \item Setzen Sie unter Sharing den „Directory share mode" auf \textbf{SPICE WebDAV}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_sharing.png}
     \caption{Sharing-Einstellungen}
@@ -257,7 +258,7 @@ Die Einstellung aus Schritt 4 ist in Abbildung \ref{fig:sharing} zu sehen.
   \item Klicken Sie bei Path auf "Browse..." und wählen Sie einen neuen Ordner aus (dieser muss vorher erstellt werden)
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_sharing-new-shared-directory.png}
     \caption{Auswahl eines Shared Directory}
@@ -274,7 +275,7 @@ Die Auswahl eines Shared Directory gemäß Schritt 5 ist in Abbildung \ref{fig:s
   \end{itemize}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_display.png}
     \caption{Display-Einstellungen}
@@ -292,7 +293,7 @@ Die Display-Einstellungen aus Schritt 6 sind in Abbildung \ref{fig:display} zu s
   \end{itemize}
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_network.png}
     \caption{Netzwerkeinstellungen}
@@ -306,7 +307,7 @@ Die Netzwerkkonfiguration gemäß Schritt 7 ist in Abbildung \ref{fig:network} d
   \item Importieren Sie die neue Disk
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_utm_disk-delete.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_disk-import.png}
@@ -320,7 +321,7 @@ Die Durchführung der Schritte 8-9 ist in Abbildung \ref{fig:disk-manage} zu seh
   \item Importieren Sie die neu konvertierte Datei (falls nicht geändert, liegt diese noch im Download-Verzeichnis mit dem Namen \datei{IES-Labor.qcow2})
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_disk-import-converted-file.png}
     \caption{Import der konvertierten Disk-Datei}
@@ -334,7 +335,7 @@ Der Import der konvertierten Datei gemäß Schritt 10 ist in Abbildung \ref{fig:
   \item Starten Sie die VM
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.48\textwidth]{images/img_utm_save.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_labor_running.png}

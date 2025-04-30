@@ -9,4 +9,4 @@
 \contentsline {subsection}{\numberline {2.3}VM erstellen}{3}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}Öffnen von UTM}{3}{}%
 \contentsline {subsubsection}{\numberline {2.3.2}Neue VM in UTM erstellen}{3}{}%
-\contentsline {subsection}{\numberline {2.4}VM-Einstellungen anpassen}{4}{}%
+\contentsline {subsection}{\numberline {2.4}VM-Einstellungen anpassen}{6}{}%
