@@ -91,7 +91,10 @@ Folgen Sie diesen Schritten, um die heruntergeladene Datei umzuwandeln:
     \includegraphics[width=0.48\textwidth]{images/img_cd-nach-download-und-ls.png}
     \includegraphics[width=0.48\textwidth]{images/img_rename-downloaded-file.png}
     \caption{Terminal-Befehle zum Wechseln des Verzeichnisses und Umbenennen der Datei}
+    \label{fig:terminal-befehle}
 \end{figure}
+
+Die Durchführung der Schritte 1-3 ist in Abbildung \ref{fig:terminal-befehle} visualisiert.
 
 \begin{tcolorbox}[title=Wichtig,colback=yellow!10,colframe=yellow!50!black]
 Bitte beachten Sie, dass die Dateinamen (wie \datei{IES-Labor V0425.ova}) exakt mit den tatsächlichen Dateinamen übereinstimmen müssen. 
@@ -127,7 +130,10 @@ Mit Zusätzen kann der Befehl modifiziert werden:
     \includegraphics[width=0.48\textwidth]{images/img_tgz-entpacken.png}
     \includegraphics[width=0.48\textwidth]{images/img_ls-und-datei-convertieren-mit-qemu.png}
     \caption{Entpacken der TGZ-Datei und Konvertierung in das QCOW2-Format}
+    \label{fig:entpacken-konvertieren}
 \end{figure}
+
+Die Durchführung der Schritte 1-2 ist in Abbildung \ref{fig:entpacken-konvertieren} dargestellt.
 
 \subsection{VM erstellen}
 
@@ -151,7 +157,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \includegraphics[width=0.48\textwidth]{images/img_utm_create-new-vm.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_emulation.png}
     \caption{Neue VM erstellen und Emulation auswählen}
+    \label{fig:vm-erstellen-emulation}
 \end{figure}
+
+Die Umsetzung der Schritte 1-2 ist in Abbildung \ref{fig:vm-erstellen-emulation} zu sehen.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=3]
   \item Wählen Sie als Betriebssystem: \textbf{Other}
@@ -163,7 +172,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \includegraphics[width=0.48\textwidth]{images/img_utm_other.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_no-boot-device.png}
     \caption{Betriebssystem und Boot-Gerät auswählen}
+    \label{fig:os-boot-device}
 \end{figure}
+
+Die Auswahl gemäß Schritt 3-4 ist in Abbildung \ref{fig:os-boot-device} dargestellt.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=5]
   \item Konfigurieren Sie die Hardware-Einstellungen:
@@ -177,7 +189,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_hardware-settings.png}
     \caption{Hardware-Einstellungen der VM}
+    \label{fig:hardware-settings}
 \end{figure}
+
+Die Hardware-Konfiguration gemäß Schritt 5 ist in Abbildung \ref{fig:hardware-settings} zu sehen.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=6]
   \item Legen Sie die Speichergröße fest
@@ -190,7 +205,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \includegraphics[width=0.48\textwidth]{images/img_utm_storage.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_summary-benennung.png}
     \caption{Speichereinstellungen und Zusammenfassung}
+    \label{fig:storage-summary}
 \end{figure}
+
+Die Einstellungen aus den Schritten 6-8 sind in Abbildung \ref{fig:storage-summary} dargestellt.
 
 \subsection{VM-Einstellungen anpassen}
 
@@ -202,7 +220,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_edit-vm.png}
     \caption{VM bearbeiten}
+    \label{fig:edit-vm}
 \end{figure}
+
+Wie in Abbildung \ref{fig:edit-vm} zu sehen, können Sie die VM über den Edit-Button bearbeiten.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=2]
   \item Aktivieren Sie unter System die Option „Force Multicore"
@@ -214,7 +235,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \includegraphics[width=0.48\textwidth]{images/img_utm_system-force-multicore.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_qemu-disable-uefi.png}
     \caption{System- und QEMU-Einstellungen}
+    \label{fig:system-qemu}
 \end{figure}
+
+Die Änderungen gemäß Schritt 2-3 sind in Abbildung \ref{fig:system-qemu} dargestellt.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=4]
   \item Setzen Sie unter Sharing den „Directory share mode" auf \textbf{SPICE WebDAV}
@@ -224,7 +248,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_sharing.png}
     \caption{Sharing-Einstellungen}
+    \label{fig:sharing}
 \end{figure}
+
+Die Einstellung aus Schritt 4 ist in Abbildung \ref{fig:sharing} zu sehen.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=5]
   \item Klicken Sie bei Path auf "Browse..." und wählen Sie einen neuen Ordner aus (dieser muss vorher erstellt werden)
@@ -234,7 +261,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_sharing-new-shared-directory.png}
     \caption{Auswahl eines Shared Directory}
+    \label{fig:shared-directory}
 \end{figure}
+
+Die Auswahl eines Shared Directory gemäß Schritt 5 ist in Abbildung \ref{fig:shared-directory} dargestellt.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=6]
   \item Wählen Sie unter Display:
@@ -248,7 +278,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_display.png}
     \caption{Display-Einstellungen}
+    \label{fig:display}
 \end{figure}
+
+Die Display-Einstellungen aus Schritt 6 sind in Abbildung \ref{fig:display} zu sehen.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=7]
   \item Konfigurieren Sie die Netzwerkeinstellungen exakt wie folgt:
@@ -263,7 +296,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_network.png}
     \caption{Netzwerkeinstellungen}
+    \label{fig:network}
 \end{figure}
+
+Die Netzwerkkonfiguration gemäß Schritt 7 ist in Abbildung \ref{fig:network} dargestellt.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=8]
   \item Löschen Sie die bestehende Disk
@@ -275,7 +311,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \includegraphics[width=0.48\textwidth]{images/img_utm_disk-delete.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_disk-import.png}
     \caption{Löschen der vorhandenen Disk und Import einer neuen}
+    \label{fig:disk-manage}
 \end{figure}
+
+Die Durchführung der Schritte 8-9 ist in Abbildung \ref{fig:disk-manage} zu sehen.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=10]
   \item Importieren Sie die neu konvertierte Datei (falls nicht geändert, liegt diese noch im Download-Verzeichnis mit dem Namen \datei{IES-Labor.qcow2})
@@ -285,7 +324,10 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \centering
     \includegraphics[width=0.7\textwidth]{images/img_utm_disk-import-converted-file.png}
     \caption{Import der konvertierten Disk-Datei}
+    \label{fig:disk-import}
 \end{figure}
+
+Der Import der konvertierten Datei gemäß Schritt 10 ist in Abbildung \ref{fig:disk-import} dargestellt.
 
 \begin{enumerate}[label=\arabic*.,leftmargin=1.5em,itemsep=0.3em,start=11]
   \item Speichern Sie die Änderungen
@@ -297,6 +339,9 @@ Meine einzige gefundene Lösung ist das Updaten auf die neuste Version von MacOS
     \includegraphics[width=0.48\textwidth]{images/img_utm_save.png}
     \includegraphics[width=0.48\textwidth]{images/img_utm_labor_running.png}
     \caption{Speichern der Einstellungen und Start der VM}
+    \label{fig:save-start}
 \end{figure}
+
+Die Durchführung der Schritte 11-12 ist in Abbildung \ref{fig:save-start} zu sehen.
 
 \end{document}

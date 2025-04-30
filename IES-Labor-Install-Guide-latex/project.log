@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 APR 2025 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 APR 2025 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -753,7 +753,7 @@ Package pdftex.def Info: images/img_rename-downloaded-file.png  used on input l
 ine 92.
 (pdftex.def)             Requested size: 232.17242pt x 119.83813pt.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 97.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 100.
  [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c} </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-late
 x/images/img_cd-nach-download-und-ls.png> </Users/nilse/Documents/IES-Labor-Ins
@@ -762,7 +762,7 @@ tall-Guide/IES-Labor-Install-Guide-latex/images/img_rename-downloaded-file.png>
 <images/img_tgz-entpacken.png, id=29, 784.9325pt x 359.3425pt>
 File: images/img_tgz-entpacken.png Graphic file (type png)
 <use images/img_tgz-entpacken.png>
-Package pdftex.def Info: images/img_tgz-entpacken.png  used on input line 127.
+Package pdftex.def Info: images/img_tgz-entpacken.png  used on input line 130.
 (pdftex.def)             Requested size: 232.17242pt x 106.28474pt.
 <images/img_ls-und-datei-convertieren-mit-qemu.png, id=30, 1004.75375pt x 323.2
 075pt>
@@ -770,18 +770,18 @@ File: images/img_ls-und-datei-convertieren-mit-qemu.png Graphic file (type png)
 
 <use images/img_ls-und-datei-convertieren-mit-qemu.png>
 Package pdftex.def Info: images/img_ls-und-datei-convertieren-mit-qemu.png  use
-d on input line 128.
+d on input line 131.
 (pdftex.def)             Requested size: 232.17242pt x 74.68138pt.
 <images/img_utm_create-new-vm.png, id=31, 1517.67pt x 985.6825pt>
 File: images/img_utm_create-new-vm.png Graphic file (type png)
 <use images/img_utm_create-new-vm.png>
 Package pdftex.def Info: images/img_utm_create-new-vm.png  used on input line 1
-51.
+57.
 (pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 <images/img_utm_emulation.png, id=32, 1517.67pt x 985.6825pt>
 File: images/img_utm_emulation.png Graphic file (type png)
 <use images/img_utm_emulation.png>
-Package pdftex.def Info: images/img_utm_emulation.png  used on input line 152.
+Package pdftex.def Info: images/img_utm_emulation.png  used on input line 158.
 (pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 
 
@@ -790,13 +790,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/img_utm_other.png, id=33, 1517.67pt x 985.6825pt>
 File: images/img_utm_other.png Graphic file (type png)
 <use images/img_utm_other.png>
-Package pdftex.def Info: images/img_utm_other.png  used on input line 163.
+Package pdftex.def Info: images/img_utm_other.png  used on input line 172.
 (pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 <images/img_utm_no-boot-device.png, id=34, 1517.67pt x 985.6825pt>
 File: images/img_utm_no-boot-device.png Graphic file (type png)
 <use images/img_utm_no-boot-device.png>
 Package pdftex.def Info: images/img_utm_no-boot-device.png  used on input line 
-164.
+173.
 (pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -805,57 +805,33 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/img_utm_hardware-settings.png Graphic file (type png)
 <use images/img_utm_hardware-settings.png>
 Package pdftex.def Info: images/img_utm_hardware-settings.png  used on input li
-ne 178.
+ne 190.
 (pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [3 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-late
 x/images/img_tgz-entpacken.png> </Users/nilse/Documents/IES-Labor-Install-Guide
 /IES-Labor-Install-Guide-latex/images/img_ls-und-datei-convertieren-mit-qemu.pn
 g>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <images/img_utm_storage.png, id=41, 1517.67pt x 985.6825pt>
 File: images/img_utm_storage.png Graphic file (type png)
 <use images/img_utm_storage.png>
-Package pdftex.def Info: images/img_utm_storage.png  used on input line 190.
+Package pdftex.def Info: images/img_utm_storage.png  used on input line 205.
 (pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 <images/img_utm_summary-benennung.png, id=42, 1517.67pt x 985.6825pt>
 File: images/img_utm_summary-benennung.png Graphic file (type png)
 <use images/img_utm_summary-benennung.png>
 Package pdftex.def Info: images/img_utm_summary-benennung.png  used on input li
-ne 191.
+ne 206.
 (pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <images/img_utm_edit-vm.png, id=43, 1517.67pt x 985.6825pt>
 File: images/img_utm_edit-vm.png Graphic file (type png)
 <use images/img_utm_edit-vm.png>
-Package pdftex.def Info: images/img_utm_edit-vm.png  used on input line 203.
-(pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/img_utm_system-force-multicore.png, id=44, 1517.67pt x 985.6825pt>
-File: images/img_utm_system-force-multicore.png Graphic file (type png)
-<use images/img_utm_system-force-multicore.png>
-Package pdftex.def Info: images/img_utm_system-force-multicore.png  used on inp
-ut line 214.
-(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
-<images/img_utm_qemu-disable-uefi.png, id=45, 1517.67pt x 985.6825pt>
-File: images/img_utm_qemu-disable-uefi.png Graphic file (type png)
-<use images/img_utm_qemu-disable-uefi.png>
-Package pdftex.def Info: images/img_utm_qemu-disable-uefi.png  used on input li
-ne 215.
-(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/img_utm_sharing.png, id=46, 1517.67pt x 985.6825pt>
-File: images/img_utm_sharing.png Graphic file (type png)
-<use images/img_utm_sharing.png>
-Package pdftex.def Info: images/img_utm_sharing.png  used on input line 225.
+Package pdftex.def Info: images/img_utm_edit-vm.png  used on input line 221.
 (pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -866,21 +842,44 @@ uide/IES-Labor-Install-Guide-latex/images/img_utm_emulation.png> </Users/nilse/
 Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_
 other.png> </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Gu
 ide-latex/images/img_utm_no-boot-device.png>]
+<images/img_utm_system-force-multicore.png, id=51, 1517.67pt x 985.6825pt>
+File: images/img_utm_system-force-multicore.png Graphic file (type png)
+<use images/img_utm_system-force-multicore.png>
+Package pdftex.def Info: images/img_utm_system-force-multicore.png  used on inp
+ut line 235.
+(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
+<images/img_utm_qemu-disable-uefi.png, id=52, 1517.67pt x 985.6825pt>
+File: images/img_utm_qemu-disable-uefi.png Graphic file (type png)
+<use images/img_utm_qemu-disable-uefi.png>
+Package pdftex.def Info: images/img_utm_qemu-disable-uefi.png  used on input li
+ne 236.
+(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/img_utm_sharing.png, id=53, 1517.67pt x 985.6825pt>
+File: images/img_utm_sharing.png Graphic file (type png)
+<use images/img_utm_sharing.png>
+Package pdftex.def Info: images/img_utm_sharing.png  used on input line 249.
+(pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <images/img_utm_sharing-new-shared-directory.png, id=54, 1517.67pt x 985.6825pt
 >
 File: images/img_utm_sharing-new-shared-directory.png Graphic file (type png)
 <use images/img_utm_sharing-new-shared-directory.png>
 Package pdftex.def Info: images/img_utm_sharing-new-shared-directory.png  used 
-on input line 235.
+on input line 262.
 (pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <images/img_utm_display.png, id=55, 1517.67pt x 985.6825pt>
 File: images/img_utm_display.png Graphic file (type png)
 <use images/img_utm_display.png>
-Package pdftex.def Info: images/img_utm_display.png  used on input line 249.
+Package pdftex.def Info: images/img_utm_display.png  used on input line 279.
 (pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -888,81 +887,82 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/img_utm_network.png, id=56, 1517.67pt x 985.6825pt>
 File: images/img_utm_network.png Graphic file (type png)
 <use images/img_utm_network.png>
-Package pdftex.def Info: images/img_utm_network.png  used on input line 264.
+Package pdftex.def Info: images/img_utm_network.png  used on input line 297.
 (pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/img_utm_disk-delete.png, id=57, 1517.67pt x 985.6825pt>
-File: images/img_utm_disk-delete.png Graphic file (type png)
-<use images/img_utm_disk-delete.png>
-Package pdftex.def Info: images/img_utm_disk-delete.png  used on input line 275
-.
-(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
-<images/img_utm_disk-import.png, id=58, 1517.67pt x 985.6825pt>
-File: images/img_utm_disk-import.png Graphic file (type png)
-<use images/img_utm_disk-import.png>
-Package pdftex.def Info: images/img_utm_disk-import.png  used on input line 276
-.
-(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/img_utm_disk-import-converted-file.png, id=59, 1517.67pt x 985.6825pt>
-File: images/img_utm_disk-import-converted-file.png Graphic file (type png)
-<use images/img_utm_disk-import-converted-file.png>
-Package pdftex.def Info: images/img_utm_disk-import-converted-file.png  used on
- input line 286.
-(pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/img_utm_save.png, id=60, 1517.67pt x 985.6825pt>
-File: images/img_utm_save.png Graphic file (type png)
-<use images/img_utm_save.png>
-Package pdftex.def Info: images/img_utm_save.png  used on input line 297.
-(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
-<images/img_utm_labor_running.png, id=61, 1517.67pt x 985.6825pt>
-File: images/img_utm_labor_running.png Graphic file (type png)
-<use images/img_utm_labor_running.png>
-Package pdftex.def Info: images/img_utm_labor_running.png  used on input line 2
-98.
-(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-late
-x/images/img_utm_hardware-settings.png>] [6 </Users/nilse/Documents/IES-Labor-I
-nstall-Guide/IES-Labor-Install-Guide-latex/images/img_utm_storage.png> </Users/
-nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/im
-g_utm_summary-benennung.png> </Users/nilse/Documents/IES-Labor-Install-Guide/IE
-S-Labor-Install-Guide-latex/images/img_utm_edit-vm.png>] [7 </Users/nilse/Docum
-ents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_syste
-m-force-multicore.png> </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labo
-r-Install-Guide-latex/images/img_utm_qemu-disable-uefi.png> </Users/nilse/Docum
-ents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_shari
-ng.png>] [8 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-G
-uide-latex/images/img_utm_sharing-new-shared-directory.png> </Users/nilse/Docum
-ents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_displ
-ay.png>] [9 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-G
-uide-latex/images/img_utm_network.png> </Users/nilse/Documents/IES-Labor-Instal
-l-Guide/IES-Labor-Install-Guide-latex/images/img_utm_disk-delete.png> </Users/n
-ilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img
-_utm_disk-import.png>] [10 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-
-Labor-Install-Guide-latex/images/img_utm_disk-import-converted-file.png> </User
-s/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/
-img_utm_save.png> </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Ins
-tall-Guide-latex/images/img_utm_labor_running.png>]
+x/images/img_utm_hardware-settings.png>]
+<images/img_utm_disk-delete.png, id=61, 1517.67pt x 985.6825pt>
+File: images/img_utm_disk-delete.png Graphic file (type png)
+<use images/img_utm_disk-delete.png>
+Package pdftex.def Info: images/img_utm_disk-delete.png  used on input line 311
+.
+(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
+<images/img_utm_disk-import.png, id=62, 1517.67pt x 985.6825pt>
+File: images/img_utm_disk-import.png Graphic file (type png)
+<use images/img_utm_disk-import.png>
+Package pdftex.def Info: images/img_utm_disk-import.png  used on input line 312
+.
+(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/img_utm_disk-import-converted-file.png, id=63, 1517.67pt x 985.6825pt>
+File: images/img_utm_disk-import-converted-file.png Graphic file (type png)
+<use images/img_utm_disk-import-converted-file.png>
+Package pdftex.def Info: images/img_utm_disk-import-converted-file.png  used on
+ input line 325.
+(pdftex.def)             Requested size: 338.58632pt x 219.88895pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/img_utm_save.png, id=64, 1517.67pt x 985.6825pt>
+File: images/img_utm_save.png Graphic file (type png)
+<use images/img_utm_save.png>
+Package pdftex.def Info: images/img_utm_save.png  used on input line 339.
+(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
+<images/img_utm_labor_running.png, id=65, 1517.67pt x 985.6825pt>
+File: images/img_utm_labor_running.png Graphic file (type png)
+<use images/img_utm_labor_running.png>
+Package pdftex.def Info: images/img_utm_labor_running.png  used on input line 3
+40.
+(pdftex.def)             Requested size: 232.17242pt x 150.77884pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-late
+x/images/img_utm_storage.png> </Users/nilse/Documents/IES-Labor-Install-Guide/I
+ES-Labor-Install-Guide-latex/images/img_utm_summary-benennung.png>] [7 </Users/
+nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/im
+g_utm_edit-vm.png> </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-In
+stall-Guide-latex/images/img_utm_system-force-multicore.png> </Users/nilse/Docu
+ments/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_qemu
+-disable-uefi.png>] [8 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labo
+r-Install-Guide-latex/images/img_utm_sharing.png> </Users/nilse/Documents/IES-L
+abor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_sharing-new-sha
+red-directory.png>] [9 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labo
+r-Install-Guide-latex/images/img_utm_display.png> </Users/nilse/Documents/IES-L
+abor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_network.png>]
+[10 </Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-lat
+ex/images/img_utm_disk-delete.png> </Users/nilse/Documents/IES-Labor-Install-Gu
+ide/IES-Labor-Install-Guide-latex/images/img_utm_disk-import.png> </Users/nilse
+/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm
+_disk-import-converted-file.png>] [11 </Users/nilse/Documents/IES-Labor-Install
+-Guide/IES-Labor-Install-Guide-latex/images/img_utm_save.png> </Users/nilse/Doc
+uments/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/images/img_utm_lab
+or_running.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 
 (/Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Install-Guide-latex/p
 roject.aux) ) 
 Here is how much of TeX's memory you used:
- 21812 strings out of 476025
- 462691 string characters out of 5790017
+ 21827 strings out of 476025
+ 462974 string characters out of 5790017
  1877388 words of memory out of 5000000
- 41911 multiletter control sequences out of 15000+600000
+ 41926 multiletter control sequences out of 15000+600000
  525619 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  83i,12n,80p,497b,1382s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -976,10 +976,10 @@ fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
 Output written on /Users/nilse/Documents/IES-Labor-Install-Guide/IES-Labor-Inst
-all-Guide-latex/project.pdf (10 pages, 7564463 bytes).
+all-Guide-latex/project.pdf (11 pages, 7565576 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
