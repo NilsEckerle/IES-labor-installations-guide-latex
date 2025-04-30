@@ -1,0 +1,70 @@
+# LaTeX compilation files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.ptc
+*.xdv
+*-converted-to.*
+
+# Generated files
+*.dvi
+*.ps
+*.eps
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Glossary/Index
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.idx
+*.ilg
+*.ind
+
+# Latexmk
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Editor files
+*~
+*.bak
+*.swp
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
